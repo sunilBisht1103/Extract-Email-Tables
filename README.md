@@ -67,10 +67,10 @@ mail.logout()
 ## How It Works
 
 ```text
-✔ Connects to IMAP mailbox (works for Gmail, Outlook, etc.).
-✔ Downloads email HTML content.
-✔ Extracts <table> elements using pandas.read_html().
-✔ Saves each table as CSV in email_tables/ folder.
+1. Connects to IMAP mailbox (works for Gmail, Outlook, etc.).
+2. Downloads email HTML content.
+3. Extracts <table> elements using pandas.read_html().
+4.  Saves each table as CSV in email_tables/ folder.
 ```
 
 ## Requirements
@@ -80,14 +80,7 @@ Install necessary libraries:
 pip install pandas lxml
 
 ```
-
-## Optional Features:
-Filter emails by date, subject, or sender.
-Mark emails as read after processing.
-Combine all tables into one CSV file.
-Handle attachments if needed.
-
-
+## Steps
 
 ## 1. Save Your Python Script
 Save your Python script as ExtractEmailTables.py in a folder (e.g., C:\Scripts\ExtractEmailTables.py).
