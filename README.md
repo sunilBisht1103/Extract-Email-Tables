@@ -1,8 +1,7 @@
 ## Extract Email Tables
 Creating a python Script to extract emails data and convert it to CSV scheduling this script to run on a specific time using PowerShell.
 
-
- Python script that connects to your email inbox, extracts HTML table data from emails, and converts it into CSV format:
+## Pyhton Script
 
 ```python
 import imaplib
@@ -70,7 +69,7 @@ mail.logout()
 
 ✔ Downloads email HTML content.
 
-✔ Extracts "<table>" elements using pandas.read_html().
+✔ Extracts <Table> elements using pandas.read_html().
 
 ✔ Saves each table as CSV in email_tables/ folder.
 
@@ -95,6 +94,9 @@ Save your Python script as ExtractEmailTables.py in a folder (e.g., C:\Scripts\E
 
 ## 2. Save Your Python Script
 Save your Power shell script as Powershell.ps1
+
+## Powershell Script
+
 ```powershell
 # Define task details
 $TaskName = "RunPythonEmailExtractor"
