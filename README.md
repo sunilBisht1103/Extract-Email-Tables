@@ -70,7 +70,7 @@ mail.logout()
 
 ✔ Downloads email HTML content.
 
-✔ Extracts <table> elements using pandas.read_html().
+✔ Extracts <table>elements using pandas.read_html().
 
 ✔ Saves each table as CSV in email_tables/ folder.
 
