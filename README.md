@@ -65,10 +65,13 @@ mail.logout()
 ```
 
 ## How It Works
-✔ Connects to IMAP mailbox (works for Gmail, Outlook, etc.).
 
-✔ Downloads email HTML content<table>
+```text
+✔ Connects to IMAP mailbox (works for Gmail, Outlook, etc.).
+✔ Downloads email HTML content.
+✔ Extracts <table> elements using pandas.read_html().
 ✔ Saves each table as CSV in email_tables/ folder.
+```
 
 ## Requirements
 Install necessary libraries:
