@@ -70,7 +70,7 @@ mail.logout()
 1. Connects to IMAP mailbox (works for Gmail, Outlook, etc.).
 2. Downloads email HTML content.
 3. Extracts <table> elements using pandas.read_html().
-4.  Saves each table as CSV in email_tables/ folder.
+4. Saves each table as CSV in email_tables/ folder.
 ```
 
 ## Requirements
